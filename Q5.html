@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q5</title>
+    <style>
+        .main{
+            display: flex;
+            /* height:280% ; */
+            width: 100%;
+            max-height: max-content;
+
+        }
+        .child{
+            border: 1px solid red;
+            height: 95vh;
+            width: 500vw;
+        }
+        .child img{
+            height:100% ;
+            width: 100%;
+        }
+        nav{
+            padding: 30px 0 0 30px;
+            display: flex;
+            height: 18%;
+            width: 100%;
+            
+        }
+        .left{
+            height: max-content;
+            width: 20%;
+            display: flex;
+            padding: 20px 0 0 25px;
+        }
+        nav.right{
+            display: flex;
+            justify-content: flex-end;
+        }
+        .right{
+            display:flex;
+             flex-direction: column; 
+             align-items: flex-end;
+             margin-left: 8cm;
+        }
+        ul{
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            font-size: x-large;
+            
+
+        }
+        button{
+          height:35px;
+          width: max-content;
+          margin: 5%;
+          border-radius: 5px;
+          padding-left: 8px;
+          font-size: large;
+        }
+        .indianRailway{
+            padding-left: 0.5cm;
+        }
+        span{
+            font-size: 40px;
+            margin: 10px;
+        }
+        div.bookTicket button{
+            height: 50px;
+            width: max-content;
+        }
+        .journey,.august{
+            display: flex;
+            
+            justify-content: space-around;
+            height: 130px;
+            width: 90%;
+            border: 1px solid rgb(72, 71, 71);
+            margin: 0.5cm;
+           align-items: center;
+           
+
+        }
+        .journey button{
+            height: 150px;
+            width: fit-content;
+            margin: 15px;
+        }
+        .bangalore2 p{
+            display: flex;
+           
+        }
+        .bangalore1,.bangalore3,.bangalore2{
+            display: flex;
+        }
+        .div1{
+            display: flex;
+            align-items: center;
+        }
+        .div2 {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            padding: 0px;
+            
+            
+        }
+        .target1{
+            display: flex;
+        }
+        .div2 div{
+            margin: -10px;
+            margin-left: 6px;
+        }
+        .green{
+            display: flex;
+            height: 60px;
+            width: 90%;
+            background-color: green;
+            color: aliceblue;
+            margin: 0.5cm;
+           justify-content: center;
+           border-radius: 5px;
+
+        }
+        
+        
+       
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- TEXT SECTION -->
+        <div class="child text">
+
+            <!-- navigation part -->
+            <nav>
+                <!-- left navigation part -->
+                <div class="section left">
+                     <img src="./assets/IRCTCLogo.png" alt="logo">
+                    <img src="./assets/indianRailwaysLogo.png" alt="railway"> 
+                </div>
+
+
+                <!-- right navigation part -->
+                <div class=" section right">
+                    <ul>
+                        <li>Ask Disha</li>
+                        <li>Contact us</li>
+                        <li>Alart</li>
+                    </ul>
+
+                    <ul>
+                        <li> <button class="selected" style="background-color: orange;">login</button></li>
+                        <li><button>Register</button></li>
+                        <li> <button>Agent Login </button></li>
+                    </ul>
+                   
+
+
+                </div>
+
+
+
+
+            </nav>
+            
+                <div class="indianRailway">
+                    <h2 style="font-size:50px ; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Indian Railways</h2>
+                    <p>
+                        <span style="color: green;">Safety</span>
+                        <span style="color: orangered;">Security</span>
+                        <span style="color: blue;">Punctuality</span>
+                    </p>
+
+
+                </div>
+
+                <div class="bookTicket">
+                    <ul>
+                        <li><button style="background-color: rgb(25, 25, 77); color: aliceblue;"> <img  style="height: fit-content; width: min-content;" src="./assets/ticket_icon.png" alt="logo">  BOOK Ticket </button></li>
+                        <li><button><img style="height: fit-content; width: min-content;" src="./assets/tick_icon.png" alt="tick">  PNR Status</button></li>
+                        <li><button><img style="height: fit-content; width: min-content;" src="./assets/chart_icon.png" alt="chart">  Charts/Vacancy</button></li>
+                    </ul>
+
+                </div>
+
+
+                <div class="journey">
+                    
+                         <div class="bangalore1">
+                            <div class="div1">
+                                <img src="./assets/departure_train_icon.png" alt="train" style="height:60px;"> 
+                            </div>
+
+                            <div class="div2"> 
+                                <div class="target1" >  <span style="font-size: x-large;">From  </span>
+                                    <span><img  src="./assets/expand_more_icon.png" alt="" ></span></div>
+                                <div class="target2"><h1>Bangalore </h1> </div>
+                                <div class="target3">KSR-Bangalore</div>
+                                
+                                
+                            </div>
+                             
+                           
+                        </div> 
+
+                            <div class="bangalore2">
+                                <img src="./assets/to_from_arrow.png" alt="train" style="height: 80px;"> 
+
+                                 
+                               
+                            </div>
+                            <div class="bangalore3">
+                                <div class="div1">
+                                    <img src="./assets/destination_train_icon.png" alt="train" style="height: 60px;"> 
+                                </div>
+    
+                                <div class="div2"> 
+                                    <div class="target1" >  <span style="font-size: x-large;">To</span>
+                                        <span><img height="1px" src="./assets/expand_more_icon.png" alt="" ></span></div>
+                                    <div class="target2"><h1>Kasaragod </h1> </div>
+                                    <div class="target3">KSR-Kasaragod</div>
+                                            
+                                </div>
+                                
+
+                        </div>
+
+                </div>  
+                
+                <!-- 1  august part -->
+                <div class="august">
+                    <div class="bangalore1">
+                        <div class="div1">
+                            <img src="./assets/calander-icon.png" alt="train" style="height:60px;"> 
+                        </div>
+
+                        <div class="div2"> 
+                            <div class="target1" >  <span style="font-size: x-large;">Date</span>
+                                <span><img  src="./assets/expand_more_icon.png" alt="" ></span></div>
+                            <div class="target2"><h1>1 Aug 2023 </h1> </div>
+                            <div class="target3">Tuesday</div>
+                            
+                            
+                        </div>
+                         
+                       
+                    </div> 
+
+                        <div class="bangalore2" id="unique">
+                            <div class="div1">
+                                <img src="./assets/threedot-icon.png" alt="train" style="height: 60px;"> 
+                            </div>
+
+                            <div class="div2"> 
+                                <div class="target1" >  <span style="font-size: large;">Class</span>
+                                    <span><img height="1px" src="./assets/expand_more_icon.png" alt="" width="AUTO" ></span></div>
+                                <div class="target2"><h1>3A</h1> </div>
+                                <div class="target3">AC 3 Tier</div>
+                                        
+                            </div>
+                             
+                           
+                        </div>
+                        <div class="bangalore3">
+                            <div class="div1">
+                                <img src="./assets/widgets_icon.png" alt="train" style="height: 60px;"> 
+                            </div>
+
+                            <div class="div2"> 
+                                <div class="target1" >  <span style="font-size: large;">Seat type</span>
+                                    <span><img height="1px" src="./assets/expand_more_icon.png" alt="" ></span></div>
+                                <div class="target2"><h1>TATKAL</h1> </div>
+                                <div class="target3">AC 3 Tier</div>
+                                        
+                            </div>
+                            
+
+                    </div>
+
+                </div>
+                <div class="green">
+                   <span>
+                    Search Train
+
+                   </span>
+                   <img src="./assets/right-arrow-icon.png" alt="" style="height: 50px; width: min-content; padding-top: 10px;">
+                </div>
+
+        </div>
+
+
+
+
+        <!-- IMAGE SECTION -->
+        <div class=" child image">
+            <img src="./assets/heroImage.png" alt="train">
+
+
+        </div>
+
+        
+    </div>
+    
+</body>
+</html>
